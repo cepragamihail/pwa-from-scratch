@@ -1,0 +1,26 @@
+{
+  "name": "pwa-from-scratch",
+  "version": "1.0.0",
+  "description": "Build Performant Progressive Web Apps from Scratch",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cepragamihail/pwa-from-scratch.git"
+  },
+  "keywords": [
+    "javaScript",
+    "PWA"
+  ],
+  "author": "cepraga.mihail.leon@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cepragamihail/pwa-from-scratch/issues"
+  },
+  "homepage": "https://github.com/cepragamihail/pwa-from-scratch#readme",
+  "devDependencies": {
+    "webpack-cli": "^4.5.0"
+  }
+}
