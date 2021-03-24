@@ -4,8 +4,9 @@
   "description": "Build Performant Progressive Web Apps from Scratch",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack-dev-server --env.mode development --colors",
-    "build": "webpack --env.mode production"
+    "dev": "webpack-dev-server --env development --mode development --colors",
+    "build": "webpack --env production --mode production",
+    "serve": "http-server dist -c0 -p 8000"
   },
   "repository": {
     "type": "git",
@@ -27,6 +28,7 @@
     "http-server": "^0.12.3",
     "webpack": "^5.27.2",
     "webpack-cli": "^4.5.0",
-    "webpack-dev-server": "^3.11.2"
+    "webpack-dev-server": "^3.11.2",
+    "workbox-webpack-plugin": "^6.1.2"
   }
 }
