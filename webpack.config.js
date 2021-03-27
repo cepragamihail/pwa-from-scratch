@@ -39,6 +39,14 @@ module.exports = env => {
         swDest: "sw.js"
       })
     ],
+    module: {
+      rules: [
+       {
+         test: /\.(png|svg|jpg|jpeg|gif)$/i,
+         type: 'assets/favicons',
+       },
+      ],
+    },
     devtool: "source-map"
   };
 };
